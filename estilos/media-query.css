@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 500px) {
   div.campo > input {
-    transform: translateY(-13px);
+    transform: translateY(-12px);
   }
   form > a.botao {
     padding-top: 7px;
