@@ -6,6 +6,21 @@
     Lilás: #5f2c82
 */
 
+@media screen and (max-width: 500px) {
+  div.campo > input {
+    transform: translateY(-13px);
+  }
+  form > a.botao {
+    padding-top: 7px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  div.campo > input {
+    transform: translateY(-12px);
+}
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
   /*MQ PARA TABLET*/
   body {
